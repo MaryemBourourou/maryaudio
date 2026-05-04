@@ -1,0 +1,9 @@
+﻿node_modules/
+__pycache__/
+*.pyc
+.env
+Flask Rest Api/uploads/
+Flask Rest Api/static/tts_output_*.mp3
+audio_project/back_audio/uploads/
+Flask Rest Api/url
+ngrok*

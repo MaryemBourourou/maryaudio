@@ -1,0 +1,45 @@
+export const OPERATIONS = [
+  {
+    id: "transcription",
+    icon: "🎙️",
+    title: "Transcription",
+    desc: "Convert speech to text using Whisper AI",
+    accent: "#7c6af7",
+  },
+  {
+    id: "compression",
+    icon: "📦",
+    title: "Compression",
+    desc: "Reduce file size to 16kHz mono WAV",
+    accent: "#2dd4bf",
+  },
+  {
+    id: "conversion",
+    icon: "🔄",
+    title: "Conversion",
+    desc: "Export audio to MP3 format",
+    accent: "#f59e0b",
+  },
+  {
+    id: "clean",
+    icon: "✨",
+    title: "Noise Reduction",
+    desc: "Remove background noise from audio",
+    accent: "#34d399",
+  },
+  {
+    id: "info",
+    icon: "🧠",
+    title: "Info Extraction",
+    desc: "AI-powered summary, subject & correction",
+    accent: "#f472b6",
+    badge: "AI",
+  },
+  {
+    id: "metrics",
+    icon: "📊",
+    title: "Quality Metrics",
+    desc: "Calculate WER & CER accuracy scores",
+    accent: "#60a5fa",
+  },
+];

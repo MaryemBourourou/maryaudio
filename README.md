@@ -1,4 +1,4 @@
-# Mary Audio
+﻿# Mary Audio
 
 A web application for intelligent audio processing: transcribe, compress, convert and clean audio files, and extract insights (summary, topic, corrected text) with AI.
 
@@ -56,26 +56,26 @@ Ollama local LLM (port 11434)
 
 ```
 .
-├── backend-python/        # Flask backend (audio processing)
-│   ├── main.py            # Flask entry point
-│   ├── process_audio.py   # Whisper transcription
-│   ├── audio_utils.py     # Compression, conversion, cleaning
-│   ├── tts_generator.py   # Text-to-speech
-│   ├── visualization.py
-│   ├── test.py            # Simple health-check script
-│   └── Requirements.txt
-├── audio_project/
-│   ├── back_audio/        # Node.js API gateway
-│   │   ├── server.js
-│   │   ├── routes/
-│   │   ├── controllers/
-│   │   └── models/
-│   └── front_audio/       # React application (Vite)
-│       └── src/
-│           ├── components/
-│           ├── hooks/
-│           └── pages/
-└── README.md
+â”œâ”€â”€ backend-python/        # Flask backend (audio processing)
+â”‚   â”œâ”€â”€ main.py            # Flask entry point
+â”‚   â”œâ”€â”€ process_audio.py   # Whisper transcription
+â”‚   â”œâ”€â”€ audio_utils.py     # Compression, conversion, cleaning
+â”‚   â”œâ”€â”€ tts_generator.py   # Text-to-speech
+â”‚   â”œâ”€â”€ visualization.py
+â”‚   â”œâ”€â”€ test.py            # Simple health-check script
+â”‚   â””â”€â”€ Requirements.txt
+â”œâ”€â”€ audio_project/
+â”‚   â”œâ”€â”€ back_audio/        # Node.js API gateway
+â”‚   â”‚   â”œâ”€â”€ server.js
+â”‚   â”‚   â”œâ”€â”€ routes/
+â”‚   â”‚   â”œâ”€â”€ controllers/
+â”‚   â”‚   â””â”€â”€ models/
+â”‚   â””â”€â”€ front_audio/       # React application (Vite)
+â”‚       â””â”€â”€ src/
+â”‚           â”œâ”€â”€ components/
+â”‚           â”œâ”€â”€ hooks/
+â”‚           â””â”€â”€ pages/
+â””â”€â”€ README.md
 ```
 
 ## Prerequisites
@@ -90,7 +90,7 @@ Ollama local LLM (port 11434)
 
 1. **Clone the project**
    ```bash
-   git clone https://github.com/MaryemBrr1/maryaudio.git
+   git clone https://github.com/MaryemBourourou/maryaudio.git
    cd maryaudio
    ```
 2. **Python backend**

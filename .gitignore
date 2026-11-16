@@ -2,8 +2,8 @@
 __pycache__/
 *.pyc
 .env
-Flask Rest Api/uploads/
-Flask Rest Api/static/tts_output_*.mp3
-audio_project/back_audio/uploads/
-Flask Rest Api/url
+uploads/
+backend-python/static/tts_output_*.mp3
+backend-python/url
 ngrok*
+*.mp4
